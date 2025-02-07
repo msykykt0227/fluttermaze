@@ -1,0 +1,31 @@
+name: maze
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  http: 0.13.5
+  image: ^4.3.0
+  shared_preferences: ^2.0.15
+  webview_flutter: ^4.7.0
+  hex: ^0.2.0
+  
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/
+      - assets/index.html
+      - assets/image/flag.dat
+      - assets/image/flag.jpg
+      - assets/image/bomb.dat
+      - assets/image/maze.png
